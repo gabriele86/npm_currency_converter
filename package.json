@@ -1,0 +1,32 @@
+{
+    "name": "fixe_io_package",
+    "version": "0.0.1",
+    "description": "Node package for currency conversion based on fixer.io api",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gabriele86/npm_currency_converter.git"
+    },
+    "keywords": [
+        "fixer.io",
+        "currency",
+        "conversion"
+    ],
+    "author": "“Gabriele <“gabriele.bassi@yahoo.it”>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/gabriele86/npm_currency_converter/issues"
+    },
+    "homepage": "https://github.com/gabriele86/npm_currency_converter#readme",
+    "dependencies": {
+        "bluebird": "^2.3.2",
+        "node-fetch": "^1.7.3"
+    },
+    "devDependencies": {
+        "chai": "^1.9.1",
+        "chai-as-promised": "^4.1.1"
+    }
+}
